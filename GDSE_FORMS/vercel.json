@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "forms/wsgi.py",
+        "src": "GDSE_FORMS/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
-            "src": "forms/wsgi.py",
-            "dest": "forms/wsgi.py"
+            "src": "/(.*)",
+            "dest": "GDSE_FORMS/wsgi.py"
         }
     ]
 }
