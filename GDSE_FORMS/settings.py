@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#xltpya5o5=m3(p&!a&*e^%r46p^z%)1fjo%ivl2l4*vuo(k4y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['GDSE_FORMS.onrender.com','127.0.0.1','versal.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
