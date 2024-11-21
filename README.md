@@ -59,7 +59,13 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 
 ### 📧 **Email Notification**  
 - Upon clicking **Export**, the entered details are sent to the user’s email.  
-- Ensures the data entered is correct and provides an additional layer of verification.  
+- Ensures the data entered is correct and provides an additional layer of verification.
+
+  </br>
+</br> 
+<p align="center">
+  <img src="./images/7.png" alt="Login Page" width="900px">
+</p>
 
 ---
 
