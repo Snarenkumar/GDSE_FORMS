@@ -15,10 +15,13 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 ### 🌐 **Starting Page: `index.html`**  
 
 
-### Login Page  
+</br> 
 <p align="center">
   <img src="./images/2.png" alt="Login Page" width="900px">
 </p>
+
+
+
 
 
 - Input fields for:  
@@ -30,7 +33,11 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
   - A **checkbox** to accept terms and conditions.  
 - Form validation to ensure proper data entry.  
 - On submission, users are redirected to the **base.html** page.  
-
+</br>
+</br> 
+<p align="center">
+  <img src="./images/3.png" alt="Login Page" width="900px">
+</p>
 ---
 
 ### 🔍 **Confirmation Page: `base.html`**  
@@ -38,7 +45,16 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 - Users can:  
   - **Cross-check their input** for accuracy.  
   - Click the **Export** button to send their details via email for further verification.  
-
+</br>
+</br> 
+<p align="center">
+  <img src="./images/4.png" alt="Login Page" width="900px">
+</p>
+</br>
+</br> 
+<p align="center">
+  <img src="./images/5.png" alt="Login Page" width="900px">
+</p>
 ---
 
 ### 📧 **Email Notification**  
@@ -49,7 +65,13 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 
 ### ✅ **Final Page: `final.html`**  
 - Displays a **Django HttpResponse** confirming:  
-  > "Mail has been sent. Please check."  
+  > "Mail has been sent. Please check."
+</br>
+</br> 
+<p align="center">
+  <img src="./images/6.png" alt="Login Page" width="900px">
+</p>
+ 
 
 ---
 
