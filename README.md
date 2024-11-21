@@ -13,6 +13,12 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 ## 🌟 Project Features  
 
 ### 🌐 **Starting Page: `index.html`**  
+
+
+### Login Page  
+![Login Page](./images/Screenshot.png "Login Page")  
+
+
 - Input fields for:  
   - **Name**  
   - **Email**  
