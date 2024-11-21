@@ -1,0 +1,64 @@
+{% extends "index.html" %}
+{% block css %}
+<meta charset="UTF-8">
+
+{% load static %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confirm Your Details</title>
+<style>
+    .hide {
+        visibility: hidden;
+    }
+
+    .m3 {
+        margin-top: 30px;
+    }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'index.css' %}?v={{ timestamp }}">
+<link rel="stylesheet" href="{% static 'base.css' %}?v={{ timestamp }}">
+{% endblock %}
+{% block details %}
+<h2>Confirm Your Details</h2>
+{% endblock %}
+
+{% block content %}
+<div class="background">
+    <div class="heading1">
+        <form method="POST" action="export" id="form">
+            {% csrf_token %}
+            <!-- Display and Hidden Fields -->
+            Your name: {{ name }}<br>
+            <input class="form-control hide" type="text" name="name" value="{{ name }}">
+
+            Your email: {{ email }}<br>
+            <input class="form-control hide" type="email" name="email" value="{{ email }}">
+
+            Your year: {{ year }}<br>
+            <input class="form-control hide" type="text" name="year" value="{{ year }}">
+
+            Your password: {{ password }}<br>
+            <input class="form-control hide" type="password" name="password" value="{{ password }}">
+
+            Your gender: {{ gender }}<br>
+            <input class="form-control hide" type="text" name="gender" value="{{ gender }}">
+
+            <!-- Submit Button -->
+            <input type="submit" class="m3" value="Export">
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+    // Logging values to console for debugging
+    document.getElementById('form').onsubmit = function (e) {
+        console.log("Name:", "{{ name }}");
+        console.log("Email:", "{{ email }}");
+        console.log("Year:", "{{ year }}");
+        console.log("Password:", "{{ password }}");
+        console.log("Gender:", "{{ gender }}");
+    };
+</script>
+{% endblock %}
