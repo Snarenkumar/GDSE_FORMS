@@ -2,6 +2,12 @@
 
 Welcome to the **Django Form Project**! This application demonstrates a user-friendly form submission process with validation, redirection, and email notification features. Built using **Django**, **HTML**, **CSS**, **JavaScript**, and **jQuery**, this project also integrates **MySQL** for backend data management.  
 
+
+> 🛑 **Important Note**:  
+> The hosted project is available at [https://narensporttify.pythonanywhere.com/](https://narensporttify.pythonanywhere.com/).  
+> However, due to backend issues, such as database connectivity problems with the hosting platform, the project may not load as expected.  
+> You can still run the project locally by following the instructions below.
+
 ---
 
 ## 🌟 Project Features  
