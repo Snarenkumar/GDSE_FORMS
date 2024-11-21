@@ -16,7 +16,9 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 
 
 ### Login Page  
-![Login Page](./images/Screenshot.png "Login Page")  
+<p align="center">
+  <img src="./images/2.png" alt="Login Page" width="900px">
+</p>
 
 
 - Input fields for:  
