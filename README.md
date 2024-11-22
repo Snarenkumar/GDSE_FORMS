@@ -8,9 +8,11 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 > However, due to backend issues, such as database connectivity problems with the hosting platform, the project may not load as expected.  
 > You can still run the project locally by following the instructions below.
 
----
-[Watch the demo video here](https://drive.google.com/file/d/1-V5YDf_eJ0RockE6RCQu_IJ-CokMeyqo/view?usp=sharing)
----
+---</br> 
+
+[![Demo Video](./images/2.png)](https://drive.google.com/file/d/1-V5YDf_eJ0RockE6RCQu_IJ-CokMeyqo/view?usp=sharing)
+---</br> 
+
 
 ## 🌟 Project Features  
 
