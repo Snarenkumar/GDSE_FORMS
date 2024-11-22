@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.core.mail import send_mail
 from django.http import HttpResponse
 from django.utils.timezone import now
-
+from .models import FormData  # Import the mod
 def home(request):
     return render(request, 'index.html', {'timestamp': now().timestamp()})
 
@@ -26,6 +26,16 @@ def export(request):
     year = request.POST.get("year", "")
     password = request.POST.get("password", "")
     gender = request.POST.get("gender", "")
+    
+    form_data = FormData(
+            name=name,
+            email=email,
+            year=year,
+            password=password,
+            gender=gender
+        )
+    form_data.save()
+    
 
     # Debug print statements
     print(f"Exported Data -> Name: {name}, Email: {email}, Year: {year}, Password: {password}, Gender: {gender}")
@@ -46,4 +56,4 @@ def export(request):
         except Exception as e:
             return HttpResponse(f"Error sending email: {str(e)}")
     else:
-        return HttpResponse("Email address is missing!")
+        return HttpResponse("Email address is missing! Data saved successfully!")
