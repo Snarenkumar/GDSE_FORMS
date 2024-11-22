@@ -11,7 +11,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 ---
 </br>
 
-<h2 style="color:yellow;"># Watch The Demo Video Of The Project By Clicking The Image Below :</h2>
+<h3 style="color:yellow;"># Watch The Demo Video Of The Project By Clicking The Image Below :</h3>
 
 </br> 
 
