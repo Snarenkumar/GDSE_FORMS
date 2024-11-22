@@ -9,7 +9,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 > You can still run the project locally by following the instructions below.
 
 ---</br> 
-##  watch the Demo video of the project by  clicking the image below
+# watch the Demo video of the project by  clicking the image below
 </br> 
 
 [![Demo Video](./images/2.png)](https://drive.google.com/file/d/1gyDZBWknzMcFiSFfpcHiAC6fnsopm0OJ/view?usp=sharing)
