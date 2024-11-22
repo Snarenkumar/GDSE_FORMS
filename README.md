@@ -8,13 +8,15 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 > However, due to backend issues, such as database connectivity problems with the hosting platform, the project may not load as expected.  
 > You can still run the project locally by following the instructions below.
 
----</br> 
+---
+</br> 
 # watch the Demo video of the project by  clicking the image below
 </br> 
 
 [![Demo Video](./images/2.png)](https://drive.google.com/file/d/1gyDZBWknzMcFiSFfpcHiAC6fnsopm0OJ/view?usp=sharing)</br> 
 
----</br> 
+---
+</br> 
 
 
 ## 🌟 Project Features  
@@ -45,6 +47,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 <p align="center">
   <img src="./images/3.png" alt="Login Page" width="900px">
 </p>
+
 ---
 
 ### 🔍 **Confirmation Page: `base.html`**  
@@ -62,6 +65,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 <p align="center">
   <img src="./images/5.png" alt="Login Page" width="900px">
 </p>
+
 ---
 
 ### 📧 **Email Notification**  
@@ -88,6 +92,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 
 ---
 </br>
+
 # 📌Database look:
 
 ---
