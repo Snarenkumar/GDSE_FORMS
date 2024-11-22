@@ -88,7 +88,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 
 ---
 </br>
-# Database look:
+# 📌Database look:
 
 ---
 </br> 
