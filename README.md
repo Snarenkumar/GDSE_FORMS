@@ -9,16 +9,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 > You can still run the project locally by following the instructions below.
 
 ---
-##  Video of deployed project or how it works  :
-</br> 
 
-<video width="400" controls>
-  <source src="./images/vidq1.mp4" type="video/mp4">
-  <source src="./images/vidq1.mp4" type="video/ogg">
-  Your browser does not support HTML video.
-</video>
-
----
 ## 🌟 Project Features  
 
 ### 🌐 **Starting Page: `index.html`**  
