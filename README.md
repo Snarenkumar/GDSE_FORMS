@@ -69,7 +69,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 <p align="center">
   <img src="./images/5.png" alt="Login Page" width="900px">
 </p>
-
+</br>
 ---
 
 ### 📧 **Email Notification**  
