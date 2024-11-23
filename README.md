@@ -109,7 +109,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 </br>
 
 ## 🛠️ Technologies Used  
-
+</br>
 - **Django**: For backend logic and framework support.  
 - **HTML & CSS**: For structuring and styling the pages.  
 - **JavaScript & jQuery**: For interactive and dynamic elements.  
