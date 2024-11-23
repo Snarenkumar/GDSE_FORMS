@@ -116,7 +116,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 - **MySQL**: For database management.  
 
 ---
-
+</br>
 ## 🚀 How to Run the Project Locally  
 
 1. Clone the repository:  
