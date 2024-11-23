@@ -106,7 +106,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 </p>
 </br>
 ---
-
+</br>
 
 ## 🛠️ Technologies Used  
 
