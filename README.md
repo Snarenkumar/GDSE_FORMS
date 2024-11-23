@@ -53,7 +53,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 ---
 
 ### 🔍 **Confirmation Page: `base.html`**  
-
+</br>
 </br>
 - Displays the details entered by the user for review.  
 - Users can:  
