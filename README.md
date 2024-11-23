@@ -83,7 +83,7 @@ Welcome to the **Django Form Project**! This application demonstrates a user-fri
 </p>
 
 ---
-
+</br>
 ### ✅ **Final Page: `final.html`**  
 - Displays a **Django HttpResponse** confirming:  
   > "Mail has been sent. Please check."
